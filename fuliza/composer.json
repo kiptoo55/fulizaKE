@@ -1,0 +1,7 @@
+{
+    "require": {
+        "kabangi/mpesa": "^3.0",
+        "vlucas/phpdotenv": "5.5.0",
+        "supabase/supabase-php": "^0.0.1"
+    }
+}

@@ -1,0 +1,63 @@
+[22-Feb-2026 21:22:49 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 21:22:49 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"aef9-409a-9ca8-a2808e1f3a797408","CheckoutRequestID":"ws_CO_22022026232243465714256400","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[22-Feb-2026 21:22:49 Europe/Berlin] CheckoutRequestID: ws_CO_22022026232243465714256400
+[22-Feb-2026 21:22:49 Europe/Berlin] ResultCode: 1032
+[22-Feb-2026 21:22:49 Europe/Berlin] ResultDesc: Request Cancelled by user.
+[22-Feb-2026 21:22:49 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_22022026232243465714256400)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:22:49 Europe/Berlin] Transaction failed: Request Cancelled by user.
+[22-Feb-2026 21:23:28 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 21:23:28 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"8baa-4c0a-bfca-11a315c9b2b4120096","CheckoutRequestID":"ws_CO_22022026232315182793371448","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[22-Feb-2026 21:23:28 Europe/Berlin] CheckoutRequestID: ws_CO_22022026232315182793371448
+[22-Feb-2026 21:23:28 Europe/Berlin] ResultCode: 1032
+[22-Feb-2026 21:23:28 Europe/Berlin] ResultDesc: Request Cancelled by user.
+[22-Feb-2026 21:23:28 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_22022026232315182793371448)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:23:28 Europe/Berlin] Transaction failed: Request Cancelled by user.
+[22-Feb-2026 22:09:24 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 22:09:24 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"8356-4ed9-8fe5-0851085e995512125","CheckoutRequestID":"ws_CO_23022026000916794714256400","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[22-Feb-2026 22:09:24 Europe/Berlin] CheckoutRequestID: ws_CO_23022026000916794714256400
+[22-Feb-2026 22:09:24 Europe/Berlin] ResultCode: 1032
+[22-Feb-2026 22:09:24 Europe/Berlin] ResultDesc: Request Cancelled by user.
+[22-Feb-2026 22:09:24 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_23022026000916794714256400)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:09:24 Europe/Berlin] Transaction failed: Request Cancelled by user.
+[22-Feb-2026 22:11:41 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 22:11:41 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"8356-4ed9-8fe5-0851085e995512151","CheckoutRequestID":"ws_CO_23022026001141670745372965","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached."}}}
+[22-Feb-2026 22:11:41 Europe/Berlin] CheckoutRequestID: ws_CO_23022026001141670745372965
+[22-Feb-2026 22:11:41 Europe/Berlin] ResultCode: 1037
+[22-Feb-2026 22:11:41 Europe/Berlin] ResultDesc: DS timeout user cannot be reached.
+[22-Feb-2026 22:11:42 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_23022026001141670745372965)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:11:42 Europe/Berlin] Transaction failed: DS timeout user cannot be reached.
+[22-Feb-2026 22:24:08 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 22:24:08 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"4331-405f-a1c8-999f663cce0682679","CheckoutRequestID":"ws_CO_23022026002354208714256400","ResultCode":1,"ResultDesc":"The balance is insufficient for the transaction."}}}
+[22-Feb-2026 22:24:08 Europe/Berlin] CheckoutRequestID: ws_CO_23022026002354208714256400
+[22-Feb-2026 22:24:08 Europe/Berlin] ResultCode: 1
+[22-Feb-2026 22:24:08 Europe/Berlin] ResultDesc: The balance is insufficient for the transaction.
+[22-Feb-2026 22:24:09 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_23022026002354208714256400)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:24:09 Europe/Berlin] Transaction failed: The balance is insufficient for the transaction.
+[22-Feb-2026 22:47:23 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 22:47:23 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"aef9-409a-9ca8-a2808e1f3a798444","CheckoutRequestID":"ws_CO_23022026004658202714256400","ResultCode":1037,"ResultDesc":"No response from user."}}}
+[22-Feb-2026 22:47:23 Europe/Berlin] CheckoutRequestID: ws_CO_23022026004658202714256400
+[22-Feb-2026 22:47:23 Europe/Berlin] ResultCode: 1037
+[22-Feb-2026 22:47:23 Europe/Berlin] ResultDesc: No response from user.
+[22-Feb-2026 22:47:24 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_23022026004658202714256400)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:47:24 Europe/Berlin] Transaction failed: No response from user.
+[22-Feb-2026 22:59:13 Europe/Berlin] === M-Pesa Callback Received ===
+[22-Feb-2026 22:59:13 Europe/Berlin] Raw data: {"Body":{"stkCallback":{"MerchantRequestID":"aef9-409a-9ca8-a2808e1f3a798600","CheckoutRequestID":"ws_CO_23022026005913382745432432","ResultCode":1025,"ResultDesc":"Error Occurred while sending push request."}}}
+[22-Feb-2026 22:59:14 Europe/Berlin] CheckoutRequestID: ws_CO_23022026005913382745432432
+[22-Feb-2026 22:59:14 Europe/Berlin] ResultCode: 1025
+[22-Feb-2026 22:59:14 Europe/Berlin] ResultDesc: Error Occurred while sending push request.
+[22-Feb-2026 22:59:14 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.ws_CO_23022026005913382745432432)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:59:14 Europe/Berlin] Transaction failed: Error Occurred while sending push request.

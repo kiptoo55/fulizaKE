@@ -1,0 +1,279 @@
+[22-Feb-2026 19:52:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Supabase\SupabaseClient" not found in C:\xampp\htdocs\fuliza+\fuliza\config\supabase.php:17
+Stack trace:
+#0 C:\xampp\htdocs\fuliza+\fuliza\config\supabase.php(25): SupabaseDB->__construct()
+#1 C:\xampp\htdocs\fuliza+\fuliza\payments\stkpush.php(51): SupabaseDB::getInstance()
+#2 {main}
+  thrown in C:\xampp\htdocs\fuliza+\fuliza\config\supabase.php on line 17
+[22-Feb-2026 20:06:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Supabase\SupabaseClient" not found in C:\xampp\htdocs\fuliza+\fuliza\config\supabase.php:17
+Stack trace:
+#0 C:\xampp\htdocs\fuliza+\fuliza\config\supabase.php(25): SupabaseDB->__construct()
+#1 C:\xampp\htdocs\fuliza+\fuliza\payments\stkpush.php(51): SupabaseDB::getInstance()
+#2 {main}
+  thrown in C:\xampp\htdocs\fuliza+\fuliza\config\supabase.php on line 17
+[22-Feb-2026 20:24:05 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 20:24:05 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 20:24:12 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "4rJjxRZ3C9LGZIAQAQhLrIF5P9ZO",
+            "expires_in": "3593"
+        }
+         HTTP Code: 200
+[22-Feb-2026 20:24:13 Europe/Berlin] STK Push Response: {
+                    "requestId":"8baa-4c0a-bfca-11a315c9b2b4114311",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 20:25:09 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 20:25:09 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 20:25:10 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "qFrVSyQanncYJtg8iAs0BlizUJvG",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 20:25:12 Europe/Berlin] STK Push Response: {
+                    "requestId":"aef9-409a-9ca8-a2808e1f3a796320",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 20:57:58 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 20:57:58 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 20:57:58 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222205758_4186)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 20:59:06 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 20:59:06 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 20:59:07 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "g5L5sL4wR2AidlCiwpGhWC8zXk4m",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 20:59:07 Europe/Berlin] STK Push Response: {
+                    "requestId":"8356-4ed9-8fe5-0851085e995511218",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 21:02:25 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:02:25 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:02:26 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "1XCxCxDJQdOPB7vwdBF9jV8Kzdrm",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:02:26 Europe/Berlin] STK Push Response: {
+                    "requestId":"8baa-4c0a-bfca-11a315c9b2b4118510",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 21:07:36 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:07:36 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:07:40 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "jxsW3YXkHHW7StHYGIOqwuAAivZ0",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:07:46 Europe/Berlin] STK Push Response: {
+                    "requestId":"aef9-409a-9ca8-a2808e1f3a797191",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 21:11:05 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:11:05 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:11:05 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "HwXAjTCvhvy5n9NVVnedoitFlBsx",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:11:06 Europe/Berlin] STK Push Response: {
+                    "requestId":"4331-405f-a1c8-999f663cce0681191",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 21:12:13 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:12:13 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:12:14 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "5DXZV3jzy5w4h0Rq84RGORypPAi4",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:12:14 Europe/Berlin] STK Push Response: {
+                    "requestId":"aef9-409a-9ca8-a2808e1f3a797283",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 21:13:20 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:13:20 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:13:20 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "CTNSgZSlvgwEAvk4yQd7sGDNyBw3",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:13:21 Europe/Berlin] STK Push Response: {
+                    "requestId":"8baa-4c0a-bfca-11a315c9b2b4119833",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+             HTTP Code: 400
+[22-Feb-2026 21:22:40 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:22:40 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:22:41 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "X4kGwTx2wlkQhS8CdAx4CIeximEl",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:22:42 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"aef9-409a-9ca8-a2808e1f3a797408",
+            "CheckoutRequestID":"ws_CO_22022026232243465714256400",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:22:42 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222212240_5734)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:23:12 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 21:23:12 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 21:23:13 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "7kQyU82WtL62qGeS3FpR8aEB4GJP",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:23:14 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"8baa-4c0a-bfca-11a315c9b2b4120096",
+            "CheckoutRequestID":"ws_CO_22022026232315182793371448",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 21:23:14 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222212312_6675)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:09:13 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:09:13 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 22:09:14 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "scEE98J5CTii1j54An8JSHFbWWkY",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:09:15 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"8356-4ed9-8fe5-0851085e995512125",
+            "CheckoutRequestID":"ws_CO_23022026000916794714256400",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:09:15 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222220912_8637)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:11:32 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:11:32 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 22:11:39 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "fva9mysvAk9ipKvjnKGVhlGiGqXt",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:11:40 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"8356-4ed9-8fe5-0851085e995512151",
+            "CheckoutRequestID":"ws_CO_23022026001141670745372965",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:11:40 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222221132_5626)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:23:50 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:23:50 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 22:23:52 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "bi13AA7oqZMG5jkSaGTFHAfG4hfw",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:23:53 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"4331-405f-a1c8-999f663cce0682679",
+            "CheckoutRequestID":"ws_CO_23022026002354208714256400",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:23:53 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222222349_4081)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:46:55 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:46:55 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 22:46:56 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "lcJYH6JMELvonYQBEjOUH6K6lRQB",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:46:57 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"aef9-409a-9ca8-a2808e1f3a798444",
+            "CheckoutRequestID":"ws_CO_23022026004658202714256400",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:46:57 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222224655_6472)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:59:10 Europe/Berlin] SupabaseDB insert error: Client error: `POST https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
+[22-Feb-2026 22:59:10 Europe/Berlin] Transaction inserted: {"error":"Client error: `POST https:\/\/hpjsryfgqwdhpibkpbqk.supabase.co\/rest\/v1\/transactions` resulted in a `401 Unauthorized` response:\n{\"message\":\"Invalid API key\",\"hint\":\"Double check your Supabase `anon` or `service_role` API key.\"}\n"}
+[22-Feb-2026 22:59:11 Europe/Berlin] M-Pesa OAuth Response: {
+            "access_token": "rhZH8ezJoloF3AmShjAGgyAjvBGG",
+            "expires_in": "3599"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:59:12 Europe/Berlin] STK Push Response: {
+            "MerchantRequestID":"aef9-409a-9ca8-a2808e1f3a798600",
+            "CheckoutRequestID":"ws_CO_23022026005913382745432432",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+         HTTP Code: 200
+[22-Feb-2026 22:59:12 Europe/Berlin] SupabaseDB update error: Client error: `PATCH https://hpjsryfgqwdhpibkpbqk.supabase.co/rest/v1/transactions?or=(checkout_request_id.eq.CHK_20260222225909_5737)` resulted in a `401 Unauthorized` response:
+{"message":"Invalid API key","hint":"Double check your Supabase `anon` or `service_role` API key."}
+
